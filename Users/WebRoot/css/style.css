@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+	body{
+		background-color: greenyellow;
+		background: url(../img/b.png);
+ 		}
+	
+	
+			/*
+			 *	清除默认样式 
+			 */
+		*{
+			margin: 0;
+			padding: 0;
+		}
+			
+			/*
+			 * 设置ul
+			 */
+		.nav{
+			list-style: none;
+			background-color: #6495ED;
+			width: 1000px;
+				
+			margin: 0px auto;
+				
+			/* 解决高度塌陷 */
+			overflow: hidden;
+			zoom: 1;
+		}
+			
+		.nav li {
+			float: left;
+			width: 20%;
+		}
+			
+		.nav a{
+			/* 将a标签设置为块元素 */
+			display: block;
+			width: 100%;
+			text-align: center; /*设置居中*/
+				
+			padding: 5px 0; /*设置上下内边距*/
+			text-decoration: none; /*去除下划线*/
+			color: white;
+			font-weight: blod;
+		}
+			
+		.nav a:hover {
+			background-color: #c00;
+		}
+		
+
+	
+	

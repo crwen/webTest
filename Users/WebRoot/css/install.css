@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+	* {
+		margin: 0;
+		padding: 0;
+		}
+			
+	body {
+		background-color: #F6F6F6;
+		text-indent: 20px;
+		letter-spacing: 1px;
+		}
+			
+	.top {
+		height: 170px;
+		background-color: skyblue;
+		}
+			
+	.top2 {
+		width: 1092px;
+		padding: 70px 350px;
+		margin: 10px auto;
+		background-color: skyblue;
+		background-image: url(../img/top.gif);
+		}
+			
+	.box {
+		margin: 35px;
+		}
+			
+	.box2 {
+		width: 870px;
+		margin: 15px 730px 0px 325px;
+		background-color: white;
+		}
+			
+		a {
+			color: black;
+			}
